@@ -3,7 +3,7 @@ from bot_logic import generate
 from bot_logic import flip
 from bot_logic import phrases
 
-bot = telebot.TeleBot('7719514735:AAEPJIkPB-44us4nhR5wL_tg57K-TblD8Eg')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
 @bot.message_handler(commands = ['start'])
 def welcome(message):
